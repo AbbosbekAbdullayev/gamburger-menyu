@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 header{
-    background-color: aqua;
+    background-color: rgb(68, 0, 255);
 }
 li{
     list-style-type: none;
@@ -33,5 +33,18 @@ a{
     transition: 0.7s ease;
 }
 .nav-link:hover{
-    color: dodgerblue;
+    color: rgb(255, 30, 79);
+}
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+
+
 }
